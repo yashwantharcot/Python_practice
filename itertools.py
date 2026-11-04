@@ -1,5 +1,6 @@
-from itertools import accumulate
+from itertools import count, cycle, repeat
 a = [1,2,3]
-acc = accumulate(a)
-print(a)
-print(list(acc))
+for i in repeat(1,4):
+    print(i)
+    
+
